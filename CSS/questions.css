@@ -1,0 +1,73 @@
+main{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3% !important;
+}
+
+p{
+    width: 80% !important;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 80%;
+    height: 100%;
+    box-shadow: 0px 1px 5px rgb(213, 211, 211);
+}
+
+.btnQS{
+    width: 100%;
+    min-height: 80px !important;
+    background-color: rgb(233, 231, 231);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    margin: 5px 0 0 5px;
+}
+
+
+.btnQS .title{
+    display: flex;
+    flex-direction: row;
+    min-height: 50px;
+    min-width: 220px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btnQS .title span{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+.btnQS .title  .titleIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnQS .title  .titleIcon i {
+    font-size: 1.5rem;
+    color: blue;
+}
+
+.btnQS .qsDesc{
+    font-size: 1.2rem;
+    color: black;
+    align-self: center;
+    display: none;
+}

@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+p{
+    color: white !important;
+    width: 90% !important;
+}
+
+a{
+    color: white;
+}
+
+@font-face {
+    font-family: "Vazir";
+    src: url("./fonts/Vazir.eot") format("eot");
+}
+
+
+
+/*---------------- MAIN ----------------- */
+
+
+
+.box{
+    flex-direction: column;
+    min-width: 90% !important;
+    height: 80% !important ;
+    margin-top: 0%;
+}
+
+
+i{
+    font-size: 2rem;
+    color: white;
+}
+
+.top-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+
+#art-disc{
+    color: gray;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+
+.art-sm{ 
+    margin-top: 0%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    width: 100%;
+    height: 100%;
+}
+
+.item:hover{
+   
+    width: 52% !important;
+    transition: 0.2s !important;
+}
+
+
+
+@media only screen and (max-width:626px) {
+    .item{
+        width: 80% !important;
+
+    }
+
+    .item:hover{
+   
+        width: 80% !important;
+        
+    }
+    
+    
+}
+
+
+.item{
+    transition: 0.2s;
+    margin: 6px;
+    border: 0px solid black ;
+    border-radius: 6px;
+    width: 50% ;
+    height: 55px !important;
+    background-color: rgb(3, 3, 3);
+    opacity: 0.8;
+    position: relative;
+   
+}
+
+
+@media only screen and (min-width:1200px) {
+    .item{
+       
+        width: 50%;
+
+    }
+}
+
+
+
+.link-title{
+    color: white  ;
+    opacity:1  ;
+    text-align: center !important ;
+    position: relative  ;
+    top: 30% !important ;
+}
+
+
+.icon{
+    
+   position: absolute;
+    left: 2%;
+    bottom: 5% ;
+   color: white !important;
+   
+}
+
+/* main link  */
+
+
+.main-link{
+    margin-top: 50px;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+
+#f-i{
+    background-color: transparent;
+    font-size: 0.7rem;
+
+}
+
+

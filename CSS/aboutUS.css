@@ -1,0 +1,92 @@
+main{
+    padding-bottom: 20px;
+   
+}
+
+
+
+#aboutUSSection{
+    margin-top: 4%;
+    width: 100% !important;
+    height: 450px !important;
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.aboutus{
+    
+    width: 55%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(239, 236, 236);
+    border-radius: 30px
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+.aboutUSbox{
+    padding: 10px;
+    width: 90% !important;
+    height:100% !important;
+    position: relative;
+    display: flex;
+    flex-direction:row-reverse;
+    background-color: rgb(87, 84, 84);
+    justify-content: space-between ;
+    align-items: center ;
+    box-shadow: 0px 1px 5px rgb(213, 211, 211);
+}
+
+
+#aboutusImage{
+    width: 40%;
+    height: 100%;
+    background:url(../pictures-and-icons/image-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid none;
+    border-radius: 0px 50px 50px 0px;
+}
+
+@media only screen and (max-width:800px){
+    #aboutUSSection{
+        margin-top: 4%;
+        height: 600px !important;
+    }
+    
+    .aboutUSbox{
+        flex-direction: column !important;
+        justify-content: space-around;
+        padding: 1px;
+        background-color: white;
+
+    }
+    
+    .aboutus{
+        width: 100%;
+        height: 45%;
+    }
+    #aboutusImage{
+        width: 100%;
+        border-radius: 0px 30px 30px 0px;
+        height: 45%;
+    }
+    
+
+}
+
+#AUDescription{
+    font-size: 1rem;
+    font-weight: bold;
+}
+

@@ -1,0 +1,184 @@
+
+@media only screen and (max-width:1035px){
+    #section1 img{
+        border-radius: 0px;
+    }
+
+    nav ul li a{
+        font-size: 0.9rem;
+        }
+
+    nav ul {
+        justify-content: space-evenly;
+        width: 70%;
+    }
+
+    #section1{
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+
+    .aboutUS h1{
+        margin-bottom:1%;
+    }
+
+    #section1 .box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        height: 100%;
+    }
+
+    
+    .footerLinks .items{
+        width: 100%;
+    }
+
+
+    .cartBox .item{
+        margin:60px  0px;
+    }
+
+    .cartBox{
+        flex-wrap: wrap;
+    }
+    
+    #section3 {
+        margin-top: 550px;
+        flex-direction: column;
+    }
+
+    .swiper-pagination{
+        display: none;
+    }
+
+    #section2{
+        margin-top: 0px;
+    }
+   
+    
+    #indexFooter{
+        margin-top:50px;
+        height: 150px;
+        
+    }
+
+    #section4{
+        margin-top:50px !important;
+        height: 100%;
+    }
+
+    
+    .aboutUS{
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        margin-right: 0;
+    }
+
+   
+    
+
+    .bottomLink{
+        margin-bottom: 10px;
+    }
+}    
+
+
+
+
+@media only screen and (max-width:800px){
+     .webLinks,#userProfile{
+         display: none;
+     }
+
+     nav{
+         justify-content:space-between;
+     }
+
+     
+     
+     .hamburger{
+         display: flex;
+     }
+   
+
+}
+
+
+
+
+@media only screen and (max-width:624px){
+
+
+
+    .footerLinks{
+        width: 100%;
+    }
+
+    .footerLinks .items{
+        margin-right:5%;
+    }
+
+ 
+
+    #section3 {
+        margin-top: 1270px !important;
+        height: 100%;
+    }
+    
+    
+    #indexFooter{
+        margin-top:50px !important;
+        height: 100% !important;
+    }
+
+    #section4{
+        margin-top:50px !important;
+    }
+    
+
+    .bottomLink{
+        margin-bottom: 10px !important;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width:560px) {
+    nav{
+        width: 90%;
+    }
+
+    #section1 img{
+        width: 100%;
+    }
+
+    #section4{
+        height: 100%;
+    }
+    .otherLinks{
+        margin: 10px 0px;
+    }
+
+   .footerLinks{
+       flex-direction: column;
+       align-items: flex-end;
+   }
+
+   .footerLinks .items{
+       flex-direction: column;
+       align-items: flex-end;
+
+   }
+}
+
